@@ -1,0 +1,7 @@
+.carousel-image {
+  transition: transform 0.2s ease-in-out;
+}
+
+.carousel-image:hover {
+  transform: scale(1.025);
+}
