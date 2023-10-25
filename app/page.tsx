@@ -36,12 +36,11 @@ export default function Home() {
 
       <section className="relative bg-zinc-900" id="about">
         <Parallax
-          blur={{ min: -15, max: 15 }}
           bgImage={'/images/drone_1.28.1.jpg'}
           bgImageAlt="About Us Image"
-          strength={-200}
+          strength={150}
         >
-          <div className="relative z-10 m-auto max-w-3xl px-6 py-32 text-center">
+          <div className="relative z-10 m-auto max-w-3xl px-6 py-32 text-center sm:py-36">
             <h2 className="mb-8 text-5xl font-thin text-white">About Us</h2>
             <p className="text-xl leading-8 text-white">
               We are a group of childhood friends from Nebraska who love making
@@ -54,7 +53,7 @@ export default function Home() {
       </section>
 
       <section className="relative bg-zinc-900" id="contact">
-        <div className="relative z-10 m-auto max-w-3xl px-6 py-32 text-center">
+        <div className="relative z-10 m-auto max-w-3xl px-6 py-32 text-center sm:py-36">
           <h2 className="mb-8 max-w-3xl text-5xl font-thin text-white">
             You think this is a joke?
           </h2>
