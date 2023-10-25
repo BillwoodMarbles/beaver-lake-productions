@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="flex items-center justify-between bg-zinc-950 px-4 py-6 text-sm text-gray-200">
+    <footer className="flex items-center justify-between bg-zinc-950 px-4 py-6 text-xs text-gray-200">
       <p>&#169; {new Date().getFullYear()} Beaver Lake Productions</p>
 
       <div>
