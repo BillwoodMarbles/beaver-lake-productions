@@ -24,7 +24,7 @@ export default function Home() {
           </h2>
           <Carousel></Carousel>
           <a
-            href="https://www.youtube.com/justinwwwalin"
+            href="https://youtube.com/@justinwwwalin?si=cNDfKpaQvIaPryIl"
             target="_blank"
             rel="noreferrer noopenner"
             className="mt-12 inline-block rounded-full border-2 bg-transparent px-8 py-3 text-lg font-light text-white transition-colors duration-300 hover:bg-white/50"
