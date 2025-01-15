@@ -28,16 +28,6 @@ export const Header: React.FC = () => {
                 Contact
               </a>
             </li>
-            <li>
-              <a
-                href="https://www.etsy.com/shop/GardenHouseProducts"
-                target="_blank"
-                rel="noreferrer noopenner"
-                className="ml-4 text-sm text-white"
-              >
-                Shop
-              </a>
-            </li>
           </ul>
         </nav>
       </div>
