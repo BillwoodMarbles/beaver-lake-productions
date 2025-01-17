@@ -19,6 +19,11 @@ export const Header: React.FC = () => {
               </a>
             </li>
             <li>
+              <a href="#music" className="ml-4 text-sm text-white">
+                Music
+              </a>
+            </li>
+            <li>
               <a href="#about" className="ml-4 text-sm text-white">
                 About Us
               </a>

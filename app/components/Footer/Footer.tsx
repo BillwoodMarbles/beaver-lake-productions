@@ -3,7 +3,12 @@ import React from 'react'
 export const Footer: React.FC = () => {
   return (
     <footer className="flex items-center justify-between bg-zinc-950 px-4 py-6 text-xs text-gray-200">
-      <p>&#169; {new Date().getFullYear()} Beaver Lake Productions</p>
+      <p>
+        &#169; {new Date().getFullYear()} Beaver Lake Productions |
+        <a href="mailto:beaverlakeproductions@gmail.com" className="ml-2">
+          beaverlakeproductions@gmail.com
+        </a>
+      </p>
 
       <div>
         <ul className="flex items-center">

@@ -13,6 +13,13 @@ const Carousel: React.FC = () => {
 
   const slides = [
     {
+      src: '/images/vala.jpg',
+      title: "Mr. Vala's Pumpkin Patch",
+      description: 'Mr. Vala has a plan for you...',
+      youtubeId: 'https://www.youtube.com/embed/nUDC2CQgUZ8?autoplay=1',
+      type: 'custom-slide',
+    },
+    {
       src: '/images/pumpkinspice.png',
       title: 'The October Curse',
       description: 'Every October something wicked takes over...',

@@ -10,17 +10,17 @@ export default function Home() {
   return (
     <main className="text-left">
       <Hero
-        title="Going somewhere?"
-        subtitle="Our new horror film takes a dark look at a local hero"
+        title="Succumb to the Darkness"
+        subtitle="Our latest short film shows how evil Nosferatu truly is."
         ctaText="Watch Now"
-        ctaLink="https://www.youtube.com/watch?v=nUDC2CQgUZ8"
-        imageUrl="/images/vala.jpg"
+        ctaLink="https://www.youtube.com/watch?v=ZuJ76Wv7hQc"
+        imageUrl="/images/hero-nosferatu.jpg"
       />
 
       <section className="bg-zinc-900 py-20" id="featured">
         <div className="mx-auto px-6 text-center">
           <h2 className="mb-8 text-center text-5xl font-thin text-white">
-            Halloween Frights
+            Top Videos
           </h2>
           <Carousel></Carousel>
           <a
@@ -31,6 +31,26 @@ export default function Home() {
           >
             View All Videos
           </a>
+        </div>
+      </section>
+
+      <section className="bg-teal-950 py-20" id="music">
+        <div className="mx-auto px-6 text-center">
+          <h2 className="mb-8 text-center text-5xl font-thin text-white">
+            Beaver Lake Productions is on Spotify!
+          </h2>
+
+          <div className="m-auto max-w-2xl">
+            <iframe
+              src="https://open.spotify.com/embed/artist/6wBrSTIlBVnyJhSkBNpxF7?utm_source=generator"
+              width="100%"
+              height="152"
+              frameBorder="0"
+              // allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
         </div>
       </section>
 
@@ -63,7 +83,7 @@ export default function Home() {
             a line!
           </p>
           <a
-            href="mailto:thegardenhouseproductions@gmail.com"
+            href="mailto:beaverlakeproductions@gmail.com"
             className="mt-12 inline-block rounded-full border-2 bg-transparent px-8 py-3 text-lg font-light text-white transition-colors duration-300 hover:bg-white/50"
           >
             Contact Us
