@@ -23,7 +23,7 @@ export default function Hero({
 }: HeroProps) {
   const [open, setOpen] = useState(false)
 
-  const embedId = 'nUDC2CQgUZ8'
+  const embedId = 'ZuJ76Wv7hQc'
 
   const slides = [
     {
