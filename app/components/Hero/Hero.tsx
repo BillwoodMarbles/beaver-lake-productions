@@ -23,7 +23,7 @@ export default function Hero({
 }: HeroProps) {
   const [open, setOpen] = useState(false)
 
-  const embedId = 'ZuJ76Wv7hQc'
+  const embedId = '4upii3jsKQU'
 
   const slides = [
     {
@@ -45,9 +45,11 @@ export default function Hero({
       />
       <div
         className="absolute bottom-14 left-0 z-20 px-6"
-        style={{ maxWidth: '370px' }}
+        style={{ maxWidth: '500px' }}
       >
-        <h1 className="mb-4 text-5xl font-semibold text-white">{title}</h1>
+        <h1 className="leading-1 mb-4 text-4xl font-semibold text-white">
+          {title}
+        </h1>
         <p className="mb-10 text-xl text-white">{subtitle}</p>
         <button
           onClick={() => setOpen(true)}
