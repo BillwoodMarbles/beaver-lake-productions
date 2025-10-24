@@ -47,7 +47,7 @@ export default function Hero({
         className="absolute bottom-14 left-0 z-20 px-6"
         style={{ maxWidth: '500px' }}
       >
-        <h1 className="leading-1 mb-4 text-4xl font-semibold text-white">
+        <h1 className="mb-4 text-4xl font-semibold leading-[1.15] text-white">
           {title}
         </h1>
         <p className="mb-10 text-xl text-white">{subtitle}</p>

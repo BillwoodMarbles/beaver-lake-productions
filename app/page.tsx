@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="text-left">
       <Hero
-        title="Beaver Lake Productions goes to Hollywood!"
+        title="Beaver Lake Productions Goes to Hollywood!"
         subtitle='Our latest short film "Now Streaming" has been selected as one of the top 15 entries into the 2025 Jakob Owens Horror Film Festival!'
         ctaText="Watch Now"
         ctaLink="https://youtu.be/4upii3jsKQU?si=S5iGJAzf600MEQjg"

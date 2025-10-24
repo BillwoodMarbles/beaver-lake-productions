@@ -17,7 +17,7 @@ const Carousel: React.FC = () => {
       title: 'Now Streaming',
       description:
         'Our unnerving entry into the 2025 Jakob Owens Horror Film Festival.',
-      youtubeId: 'https://youtu.be/4upii3jsKQU?si=S5iGJAzf600MEQjg',
+      youtubeId: 'https://www.youtube.com/embed/4upii3jsKQU?autoplay=1',
       type: 'custom-slide',
     },
     {
