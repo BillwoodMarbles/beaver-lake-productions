@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <main className="text-left">
       <Hero
-        title="Succumb to the Darkness"
-        subtitle="Our latest short film shows how evil Nosferatu truly is."
+        title="Beaver Lake Productions goes to Hollywood!"
+        subtitle='Our latest short film "Now Streaming" has been selected as one of the top 15 entries into the 2025 Jakob Owens Horror Film Festival!'
         ctaText="Watch Now"
-        ctaLink="https://www.youtube.com/watch?v=ZuJ76Wv7hQc"
-        imageUrl="/images/hero-nosferatu.jpg"
+        ctaLink="https://youtu.be/4upii3jsKQU?si=S5iGJAzf600MEQjg"
+        imageUrl="/images/now-streaming.jpg"
       />
 
       <section className="bg-zinc-900 py-20" id="featured">

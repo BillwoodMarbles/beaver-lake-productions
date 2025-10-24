@@ -13,6 +13,14 @@ const Carousel: React.FC = () => {
 
   const slides = [
     {
+      src: '/images/now-streaming.jpg',
+      title: 'Now Streaming',
+      description:
+        'Our unnerving entry into the 2025 Jakob Owens Horror Film Festival.',
+      youtubeId: 'https://youtu.be/4upii3jsKQU?si=S5iGJAzf600MEQjg',
+      type: 'custom-slide',
+    },
+    {
       src: '/images/vala.jpg',
       title: "Mr. Vala's Pumpkin Patch",
       description: 'Mr. Vala has a plan for you...',

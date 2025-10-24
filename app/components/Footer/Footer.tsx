@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
 
           <li className="mx-2 inline-block">
             <a
-              href="https://www.instagram.com/beaverlakeproductions/"
+              href="https://www.instagram.com/saltwaterrefuge92"
               rel="noreferrer noopenner"
               target="_blank"
               className="inline-block"
