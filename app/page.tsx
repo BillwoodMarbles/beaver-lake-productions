@@ -19,7 +19,7 @@ export default function Home() {
 
       <section className="bg-zinc-900 py-20 sm:py-36" id="featured">
         <div className="mx-auto px-6 text-center">
-          <h2 className="mb-8 text-center text-5xl font-thin text-white">
+          <h2 className="mb-8 text-center text-3xl font-thin text-white md:text-5xl">
             Top Videos
           </h2>
           <Carousel></Carousel>
@@ -27,7 +27,7 @@ export default function Home() {
             href="https://youtube.com/@justinwwwalin?si=cNDfKpaQvIaPryIl"
             target="_blank"
             rel="noreferrer noopenner"
-            className="mt-12 inline-block rounded-full border-2 bg-transparent px-8 py-3 text-lg font-light text-white transition-colors duration-300 hover:bg-white/50"
+            className="mt-12 inline-block rounded-full border-2 bg-transparent px-10 py-4 text-lg font-light text-white transition-colors duration-300 hover:bg-white/50"
           >
             View All Videos
           </a>
@@ -36,14 +36,9 @@ export default function Home() {
 
       <section className="bg-gray-600 py-20 sm:py-36" id="documentary">
         <div className="mx-auto px-6 text-center">
-          <h2 className="mb-8 text-center text-5xl font-thin text-white">
+          <h2 className="mb-8 text-center text-3xl font-thin text-white md:text-5xl">
             Beaver Lake Productions: A Retrospective
           </h2>
-
-          <p className="mb-12 text-xl leading-8 text-white">
-            The Worst Channel You&apos;ve Never Heard. Watch the feature-length
-            documentary now!
-          </p>
 
           <div className="flex justify-center">
             <iframe
@@ -60,7 +55,7 @@ export default function Home() {
 
       <section className="bg-teal-950 py-20 sm:py-36" id="music">
         <div className="mx-auto px-6 text-center">
-          <h2 className="mb-8 text-center text-5xl font-thin text-white">
+          <h2 className="mb-8 text-center text-3xl font-thin text-white md:text-5xl">
             Beaver Lake Productions is on Spotify!
           </h2>
 
@@ -85,8 +80,10 @@ export default function Home() {
           strength={150}
         >
           <div className="relative z-10 m-auto max-w-3xl px-6 py-32 text-center sm:py-36">
-            <h2 className="mb-8 text-5xl font-thin text-white">About Us</h2>
-            <p className="text-xl leading-8 text-white">
+            <h2 className="mb-8 text-3xl font-thin text-white md:text-5xl">
+              About Us
+            </h2>
+            <p className="text-xl font-light leading-8 text-white">
               We are a group of childhood friends from Nebraska who love making
               short-films. Our portfolio ranges from music videos for local rock
               bands to outrageous comedy sketches that push the boundaries of
@@ -98,17 +95,17 @@ export default function Home() {
 
       <section className="relative bg-zinc-900" id="contact">
         <div className="relative z-10 m-auto max-w-3xl px-6 py-32 text-center sm:py-36">
-          <h2 className="mb-8 max-w-3xl text-5xl font-thin text-white">
+          <h2 className="mb-8 max-w-3xl text-3xl font-thin text-white md:text-5xl">
             You think this is a joke?
           </h2>
-          <p className="text-xl leading-8 text-white">
+          <p className="text-xl font-light leading-8 text-white">
             Don&apos;t let the gross-out humor fool you, we take our work very
             seriously. If you have a project you&apos;d like to discuss, drop us
             a line!
           </p>
           <a
             href="mailto:beaverlakeproductions@gmail.com"
-            className="mt-12 inline-block rounded-full border-2 bg-transparent px-8 py-3 text-lg font-light text-white transition-colors duration-300 hover:bg-white/50"
+            className="mt-12 inline-block rounded-full border-2 bg-transparent px-10 py-4 text-lg font-light text-white transition-colors duration-300 hover:bg-white/50"
           >
             Contact Us
           </a>

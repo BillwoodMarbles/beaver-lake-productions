@@ -23,7 +23,7 @@ export const Navigation: React.FC = () => {
     { href: '#featured', label: 'Videos' },
     { href: '#documentary', label: 'Documentary' },
     { href: '#music', label: 'Music' },
-    { href: '#about', label: 'About Us' },
+    { href: '#about', label: 'About' },
     { href: '#contact', label: 'Contact' },
   ]
 

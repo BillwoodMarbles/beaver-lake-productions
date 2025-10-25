@@ -47,13 +47,15 @@ export default function Hero({
         className="absolute bottom-14 left-0 z-20 px-6"
         style={{ maxWidth: '500px' }}
       >
-        <h1 className="mb-4 text-4xl font-semibold leading-[1.15] text-white">
+        <h1 className="mb-4 text-2xl font-thin leading-[1.15] text-white md:text-4xl">
           {title}
         </h1>
-        <p className="mb-10 text-xl text-white">{subtitle}</p>
+        <p className="mb-10 text-base font-light text-white md:text-xl">
+          {subtitle}
+        </p>
         <button
           onClick={() => setOpen(true)}
-          className="rounded-full border-2 border-green-600 bg-green-600 px-8 py-3 text-lg font-light text-white transition-colors duration-300 hover:bg-green-600/50"
+          className="rounded-full border-2 border-green-600 bg-green-600 px-10 py-4 text-lg font-light text-white transition-colors duration-300 hover:bg-green-600/50"
         >
           {ctaText}
         </button>
