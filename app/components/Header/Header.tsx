@@ -25,7 +25,7 @@ export const Header: React.FC = () => {
   return (
     <header
       className={`fixed left-0 top-0 z-40 w-full px-6 transition-all duration-300 ${
-        isScrolled ? 'bg-black/90 shadow-lg backdrop-blur-sm' : 'bg-transparent'
+        isScrolled ? 'bg-black/90 shadow-lg' : 'bg-transparent'
       }`}
     >
       <div

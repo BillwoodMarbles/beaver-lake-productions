@@ -17,7 +17,7 @@ export default function Home() {
         imageUrl="/images/now-streaming.jpg"
       />
 
-      <section className="bg-zinc-900 py-20" id="featured">
+      <section className="bg-zinc-900 py-20 sm:py-36" id="featured">
         <div className="mx-auto px-6 text-center">
           <h2 className="mb-8 text-center text-5xl font-thin text-white">
             Top Videos
@@ -34,7 +34,31 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-teal-950 py-20" id="music">
+      <section className="bg-gray-600 py-20 sm:py-36" id="documentary">
+        <div className="mx-auto px-6 text-center">
+          <h2 className="mb-8 text-center text-5xl font-thin text-white">
+            Beaver Lake Productions: A Retrospective
+          </h2>
+
+          <p className="mb-12 text-xl leading-8 text-white">
+            The Worst Channel You&apos;ve Never Heard. Watch the feature-length
+            documentary now!
+          </p>
+
+          <div className="flex justify-center">
+            <iframe
+              src="https://www.youtube.com/embed/NVzcnM_MT0Y?si=rSv5bJ6VbllOjiQV"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              className="aspect-video w-full max-w-5xl"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-teal-950 py-20 sm:py-36" id="music">
         <div className="mx-auto px-6 text-center">
           <h2 className="mb-8 text-center text-5xl font-thin text-white">
             Beaver Lake Productions is on Spotify!

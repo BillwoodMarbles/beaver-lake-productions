@@ -28,6 +28,13 @@ const Carousel: React.FC = () => {
       type: 'custom-slide',
     },
     {
+      src: '/images/hero-nosferatu.jpg',
+      title: 'Nosferatu: Alternate Ending',
+      description: "Poor 'Ol Nosferatu bit off more than he could chew...",
+      youtubeId: 'https://www.youtube.com/embed/ZuJ76Wv7hQc?autoplay=1',
+      type: 'custom-slide',
+    },
+    {
       src: '/images/pumpkinspice.png',
       title: 'The October Curse',
       description: 'Every October something wicked takes over...',

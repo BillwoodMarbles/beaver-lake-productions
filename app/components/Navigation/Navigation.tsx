@@ -21,6 +21,7 @@ export const Navigation: React.FC = () => {
       label: 'Shop',
     },
     { href: '#featured', label: 'Videos' },
+    { href: '#documentary', label: 'Documentary' },
     { href: '#music', label: 'Music' },
     { href: '#about', label: 'About Us' },
     { href: '#contact', label: 'Contact' },
@@ -29,7 +30,7 @@ export const Navigation: React.FC = () => {
   return (
     <>
       {/* Desktop Navigation */}
-      <nav className="hidden sm:block">
+      <nav className="hidden md:block">
         <ul className="flex items-center justify-evenly">
           {navItems.map((item, index) => (
             <li key={index}>
@@ -48,7 +49,7 @@ export const Navigation: React.FC = () => {
 
       {/* Mobile Hamburger Button */}
       <button
-        className="z-50 flex h-8 w-8 flex-col items-center justify-center sm:hidden"
+        className="z-[70] flex h-8 w-8 flex-col items-center justify-center md:hidden"
         onClick={toggleMobileMenu}
         aria-label="Toggle menu"
       >
@@ -71,7 +72,7 @@ export const Navigation: React.FC = () => {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`fixed inset-0 z-30 bg-black/95 transition-opacity duration-300 ease-in-out sm:hidden ${
+        className={`fixed inset-0 z-[60] bg-black transition-opacity duration-300 ease-in-out md:hidden ${
           isMobileMenuOpen
             ? 'pointer-events-auto opacity-100'
             : 'pointer-events-none opacity-0'
@@ -79,9 +80,7 @@ export const Navigation: React.FC = () => {
         onClick={closeMobileMenu}
       >
         <nav
-          className={`flex h-full items-center justify-center transition-transform duration-300 ease-in-out ${
-            isMobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
-          }`}
+          className="flex h-full items-center justify-center"
           onClick={(e) => e.stopPropagation()}
         >
           <ul className="flex flex-col items-center space-y-8">
